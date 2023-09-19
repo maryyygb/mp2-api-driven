@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    /* background-image: url('/static/assets/background.jpg'); */
+    margin: 2%;
+}
+.container{
+    width: 614px;
+height: 478px;
+flex-shrink: 0;
+border-radius: 30px;
+background: #ffa9be;
+box-shadow: 10% 10% black;
+}
+
+
+
+h2{
+    padding: .5em 2em;
+    color: #FFF;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+font-family: Open Sans Hebrew;
+font-size: 50px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+hr{
+    background-color: white;
+    color: white;
+    height: 1em;
+}
+
+
+.center-div{
+    padding-top: 5%;
+    
+}
+
+.btn{
+    padding: .4em 4em;
+    background-color: rgba(255, 219, 170, 1);
+}
+
+form{
+    padding: 0em 3em;
+}
+
+.label{
+    font-size: .8em;
+}
+
+form{
+    padding: 0%;
+}
+
+input{
+    width: 350px;
+    /* padding: 20%; */
+/* height: 48px; */
+flex-shrink: 0;
+/* border-radius: 50px; */
+background: #FFF;
+box-shadow: 2px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+width: 60%;
+      height: 40px;
+      margin: 0 auto;
+      /* border: none; <-- This thing here */
+      border:solid 1px #ccc;
+      border-radius: 20%;
+}
+
+span, .label{
+    color: #FFF;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+font-family: Open Sans Hebrew;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}

@@ -1,0 +1,31 @@
+<%-include('header') -%>
+    <div class="text-center center-div mt-5" id="login">
+
+      <nav>
+        <ul>
+          <li>
+            <a href="#">
+              <img src="/public/assets/mylogo.ico" alt="">
+              <span class="nav-item">Code Info</span>
+            </a>
+          </li>
+          <li>
+            <a href="#"></a>
+            <img src="/public/assets/mylogo.ico">
+            <span class="nav-items"></span>
+            <a href="#"></a>
+            <a href="#"></a>
+            <a href="#"></a>
+            <a href="#"></a>
+          </li>
+        </ul>
+      </nav>
+
+
+      <div class="container w-25 border py-5 mt-5">
+        <h3>Dashboard</h3>
+        <h5><%= locals.user?user:'No email found'  %></h5>
+        <a href="/logout">Logout</a>
+      </div>
+    </div>
+<%-include('footer') -%>
